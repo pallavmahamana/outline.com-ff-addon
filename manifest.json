@@ -1,0 +1,31 @@
+{
+
+  "description": "Outline - Read without clutter",
+  "manifest_version": 2,
+  "name": "Outline.com",
+  "version": "1.0",
+  "icons": {
+    "64": "icons/outline64.png",
+    "16": "icons/outline16.png",
+    "32": "icons/outline32.png"
+
+  },
+  "applications": {
+  "gecko": {
+    "id": "spsec.pallav@gmail.com"
+  }
+},
+
+    "permissions": [
+    "tabs"
+],
+
+  "background": {
+    "scripts": ["outline.js"]
+  },
+
+  "browser_action": {
+    "default_icon": "icons/outline64.png"
+  }
+
+}
